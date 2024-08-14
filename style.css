@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Signika+Negative:wght@300..700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -9,4 +11,16 @@
 --rosa: #ffafccff;
 --azul-claro: #bde0feff;
 --azul: #a2d2ffff;
+--fonte-titulo: "Signika Negative", sans-serif;
+--fonte-texto:  "Mooli", sans-serif;
+}
+
+body {
+    background-color: var(--azul);
+    font-family: var(--fonte-titulo);
+    font-size: 16px;
+}
+
+.titulo-principal{
+    font-family: var(--fonte-titulo);
 }
