@@ -13,18 +13,19 @@
 --azul: #a2d2ffff;
 --azul-escuro: #00009C;
 --preto: #000000;
+--branco: #FFFFFF;
 --fonte-titulo: "Signika Negative", sans-serif;
 --fonte-texto:  "Mooli", sans-serif;
 }
 
 body {
-    background-color: var(--rosa-claro);
+    background-color: var(--lilás);
     font-family: var(--fonte-titulo);
     font-size: 16px;
 }
 
 .cabecalho{
-    background-color: var(--azul-claro);
+    background-color: var(--azul-escuro);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,10 +38,10 @@ body {
 }
 
 .cabecalho-nav__link{
-    font-family: var(texto-titulo);
+    font-family: var(fonte-titulo);
     text-decoration: none;
     font-size: 36px;
-    color: var(--azul);
+    color: var(--branco);
     margin-right: 36px;
 }
 
@@ -53,23 +54,23 @@ body {
 
 .principal-capa{
     display:flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     gap: 24px;
-    background-image: url(fundo.jpg);
+    background-image: url(img/fundo.jpg);
     background-repeat: no-repeat;
     margin-left: 12px;
     padding: 24px 12px;
 }
 
-.principal-capa__conteudo{
+.principal-capa__combotao{
     display: flex;
     flex-direction: column;
     gap: 12px;
 }
 
 .principal-capa__titulo{
-    font-family: var(--texto-titulo);
+    font-family: var(--fonte-titulo);
     font-size: 32px;
     color: var(--preto);
     margin-bottom: 12px;
@@ -84,23 +85,17 @@ body {
     border-radius: 0 5% 0 5%;
 }
 
-.principal-capa__combotao{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
 .principal-capa__botao{
     background-color: var(--lilás);
     border-radius: 5px;
     padding: 1em;
     margin-top: 2em;
-    color:var(--azul);
+    color:var(--azul-escuro);
     text-decoration: none;
 }
 
 .botao__secundario{
     background-color: transparent;
-    border: 2px solid var(--azul-claro);
-    color: var(--lilás);
+    border: 2px solid var(--azul-escuro);
+    color: var(--preto);
 }
