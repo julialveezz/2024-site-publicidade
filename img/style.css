@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Signika+Negative:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+--lilás: #cdb4dbff;
+--rosa-claro: #ffc8ddff;
+--rosa: #ffafccff;
+--azul-claro: #bde0feff;
+--azul: #a2d2ffff;
+--azul-escuro: #00009C;
+--preto: #000000;
+--branco: #FFFFFF;
+--verde-agua:  #00b89f;
+--fonte-titulo: "Signika Negative", sans-serif;
+--fonte-texto:  "Mooli", sans-serif;
+}
+
+body {
+    background-color: var(--azul-escuro);
+    font-family: var(--fonte-titulo);
+    font-size: 16px;
+}
+
+.cabecalho{
+    background-color: var(--azul-escuro);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+
+.cabecalho-img{
+    width: 15%;
+    border-radius: 10%;
+}
+
+.cabecalho-nav__link{
+    font-family: var(fonte-titulo);
+    text-decoration: none;
+    font-size: 36px;
+    color: var(--branco);
+    margin-right: 36px;
+}
+
+.cabecalho-nav__link:hover{
+    color: var(--preto);
+    font-size: 46px;
+    transition: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    text-shadow: 2px 2px (var(--preto));
+}
+
+.principal-capa{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+    background-image: url(img/fundo.jpg);
+    background-repeat: no-repeat;
+    padding: 24px 12px;
+}
+
+.principal-capa__combotao{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.principal-capa__titulo{
+    font-family: var(--fonte-titulo);
+    font-size: 32px;
+    color: var(--preto);
+    margin-bottom: 12px;
+}
+
+.principal-capa__texto{
+    font-size: 24px;
+    margin-top: 24px;
+}
+
+.principal-capa__imagem{
+    border-radius: 100%;
+}
+
+.principal-capa__botao{
+    background-color: var(--lilás);
+    border-radius: 5px;
+    padding: 1em;
+    margin-top: 2em;
+    color:var(--azul-escuro);
+    text-decoration: none;
+}
+
+.principal-capa__botao:hover{
+    padding: 1.2em;
+    background-color: var(--azul-escuro);
+    color: var(--azul);
+    transition: 0.5s;
+}
+
+.botao__secundario{
+    background-color: var(--lilás);
+    color: var(--azul-escuro);
+}
+
