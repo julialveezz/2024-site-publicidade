@@ -59,8 +59,8 @@ body {
     gap: 24px;
     background-image: url(img/fundo.jpg);
     background-repeat: no-repeat;
-    margin-left: 12px;
-    padding: 24px 12px;
+    margin-left: 0px;
+    padding: 0px;
 }
 
 .principal-capa__combotao{
@@ -134,11 +134,33 @@ body {
 }
 
 .propaganda__titulo:hover{
-    text-shadow: 4px 4px 20px var(--azul-escuro);
+    text-shadow: 4px 4px 20px var(--rosa);
     transition: 0.7s;
 }
 
 .propaganda__texto{
     font-size: 20px;
     color: var(--preto);
+}
+
+.dispositivos{
+    text-align:center;
+}
+
+.dispositivo__titulo{
+    font-family: var(--fonte-titulo);
+    font-size: 48px;
+    color: var(--rosa);
+}
+
+.dispositios__lista{
+    display:flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.lista__item{
+    font-size: 24px;
+    color: var(--azul-escuro);
 }
