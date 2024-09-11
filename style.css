@@ -145,6 +145,7 @@ body {
 
 .dispositivos{
     text-align:center;
+    margin-top: 90px;
 }
 
 .dispositivo__titulo{
@@ -163,4 +164,29 @@ body {
 .lista__item{
     font-size: 24px;
     color: var(--azul-escuro);
+}
+.rodape__lista{
+    display: flex;
+    justify-content: center;
+    color: var(--branco);
+    list-style-type: none;
+    margin-top: 1em;
+}
+.rodape__link a{
+    color: var(--branco);
+    text-decoration: none;
+    margin-left: 1em;
+    font-size: 24px;
+}
+.rodapé__texto{
+    margin: 1em 0;
+    color: var(--branco);
+    font-size: 18px;
+}
+.rodape__logo{
+    width: 10%;
+}
+.rodape{
+    text-align: center;
+    margin: 5em 3em;
 }
